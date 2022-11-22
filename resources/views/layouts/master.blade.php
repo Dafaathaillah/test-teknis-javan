@@ -51,7 +51,7 @@ License: You must have a valid license purchased only from above link or https:/
                <div>
                  <h4 class="mb-3 mb-md-0 text-capitalize">@yield('title2')</h4>
                </div>
-               @yield('title3')
+               {{-- @yield('title3') --}}
              </div>
             @yield('content')
 
@@ -85,6 +85,7 @@ License: You must have a valid license purchased only from above link or https:/
    <!-- custom js for this page -->
    <script src="{{ asset('admin/assets/js/dashboard.js') }}"></script>
    <script src="{{ asset('admin/assets/js/datepicker.js') }}"></script>
+   @stack('custom_js')
    <!-- end custom js for this page -->
 </body>
 

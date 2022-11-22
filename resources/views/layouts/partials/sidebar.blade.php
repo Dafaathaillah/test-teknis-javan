@@ -22,48 +22,48 @@
             <div class="collapse" id="soal2">
                <ul class="nav sub-menu">
                   <li class="nav-item">
-                     <a href="pages/email/inbox.html" class="nav-link">Orangtua</a>
+                     <a href="{{ route('orangtua.index') }}" class="nav-link">Orangtua</a>
                   </li>
                   <li class="nav-item">
-                     <a href="pages/email/read.html" class="nav-link">Anak</a>
+                     <a href="{{ route('anak.index') }}" class="nav-link">Anak</a>
                   </li>
                   <li class="nav-item">
-                     <a href="pages/email/read.html" class="nav-link">Cucu</a>
+                     <a href="{{ route('cucu.index') }}" class="nav-link">Cucu</a>
                   </li>
                </ul>
             </div>
          </li>
          <li class="nav-item nav-category">Soal No 3</li>
          <li class="nav-item">
-            <a href="dashboard-one.html" class="nav-link">
+            <a href="{{ route('anakbudi.index') }}" class="nav-link">
                <i class="link-icon" data-feather="user"></i>
                <span class="link-title">Anak Budi</span>
             </a>
          </li>
          <li class="nav-item nav-category">Soal No 4</li>
          <li class="nav-item">
-            <a href="dashboard-one.html" class="nav-link">
+            <a href="{{ route('cucubudi.index') }}" class="nav-link">
                <i class="link-icon" data-feather="user"></i>
                <span class="link-title">Cucu Budi</span>
             </a>
          </li>
          <li class="nav-item nav-category">Soal No 5</li>
          <li class="nav-item">
-            <a href="dashboard-one.html" class="nav-link">
+            <a href="{{ route('cucuperempuanbudi.index') }}" class="nav-link">
                <i class="link-icon" data-feather="user"></i>
-               <span class="link-title">Cucu Perenpuan Budi</span>
+               <span class="link-title">Cucu Perempuan Budi</span>
             </a>
          </li>
          <li class="nav-item nav-category">Soal No 6</li>
          <li class="nav-item">
-            <a href="dashboard-one.html" class="nav-link">
+            <a href="{{ route('bibifarah.index') }}" class="nav-link">
                <i class="link-icon" data-feather="user"></i>
                <span class="link-title">Bibi Dari Farah</span>
             </a>
          </li>
          <li class="nav-item nav-category">Soal No 7</li>
          <li class="nav-item">
-            <a href="dashboard-one.html" class="nav-link">
+            <a href="{{ route('sepupu.index') }}" class="nav-link">
                <i class="link-icon" data-feather="user"></i>
                <span class="link-title">Sppu Laki-Laki Hani</span>
             </a>
