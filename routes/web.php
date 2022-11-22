@@ -8,6 +8,7 @@ use App\Http\Controllers\CucuController;
 use App\Http\Controllers\CucuPerempuanBudiController;
 use App\Http\Controllers\OrangtuaController;
 use App\Http\Controllers\SepupuLakiLakiHaniController;
+use App\Http\Controllers\Soal1Controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,8 +26,11 @@ use Illuminate\Support\Facades\Route;
 //     return view('layouts.master');
 // });
 
+// Soal 1
+Route::resource('/', Soal1Controller::class);
+Route::resource('soal1', Soal1Controller::class);
+
 // orangtua
-Route::resource('/', OrangtuaController::class);
 Route::resource('orangtua', OrangtuaController::class);
 Route::get('orangtua/delete/{id}', [OrangtuaController::class, 'destroy'])->name('orangtua.delete');
 

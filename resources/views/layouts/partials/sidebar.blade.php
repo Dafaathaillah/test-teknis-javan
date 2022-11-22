@@ -12,6 +12,13 @@
    </div>
    <div class="sidebar-body">
       <ul class="nav">
+         <li class="nav-item nav-category">Soal No 1</li>
+         <li class="nav-item">
+            <a href="{{ route('soal1.index') }}" class="nav-link">
+               <i class="link-icon" data-feather="user"></i>
+               <span class="link-title">Soal No 1</span>
+            </a>
+         </li>
          <li class="nav-item nav-category">Soal No 2 Dan 8</li>
          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#soal2" role="button" aria-expanded="false">
