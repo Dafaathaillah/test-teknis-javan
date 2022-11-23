@@ -9,6 +9,7 @@ use App\Http\Controllers\CucuPerempuanBudiController;
 use App\Http\Controllers\OrangtuaController;
 use App\Http\Controllers\SepupuLakiLakiHaniController;
 use App\Http\Controllers\Soal1Controller;
+use App\Http\Controllers\Soal9Controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,7 +27,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('layouts.master');
 // });
 
-// Soal 1
+// soal 1
 Route::resource('/', Soal1Controller::class);
 Route::resource('soal1', Soal1Controller::class);
 
@@ -56,3 +57,6 @@ Route::resource('bibifarah', BibiFarahController::class);
 
 // menampilkan sepupu laki-laki hani
 Route::resource('sepupu', SepupuLakiLakiHaniController::class);
+
+// soal 9
+Route::resource('soal9', Soal9Controller::class);

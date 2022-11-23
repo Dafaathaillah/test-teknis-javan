@@ -75,6 +75,13 @@
                <span class="link-title">Sppu Laki-Laki Hani</span>
             </a>
          </li>
+         <li class="nav-item nav-category">Soal No 9</li>
+         <li class="nav-item">
+            <a href="{{ route('soal9.index') }}" class="nav-link">
+               <i class="link-icon" data-feather="user"></i>
+               <span class="link-title">Soal No 9</span>
+            </a>
+         </li>
       </ul>
    </div>
 </nav>
